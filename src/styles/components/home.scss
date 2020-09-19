@@ -1,0 +1,63 @@
+.home-page {
+  margin-top: 60px;
+
+  &-head {
+    display: flex;
+    align-items: center;
+    background: $athens-gray;
+
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 6px;
+    }
+
+    section {
+      padding-left: 20px;
+
+      p {
+        color: $pale-sky;
+        font-size: 14px;
+      }
+
+      .user-information {
+        font-size: 12px;
+        line-height: 32px;
+
+        span:not(:last-child) {
+          margin-right: 16px;
+        }
+
+        svg {
+          margin-right: 5px;
+        }
+      }
+    }
+
+    &__title {
+      display: inline-block;
+      margin-bottom: 12px;
+      color: $shark;
+      font-size: 20px;
+      font-weight: 400;
+    }
+  }
+
+  .repositories-count {
+    color: $shark;
+    border: 1px solid $athens-gray;
+    background: $athens-gray;
+    padding: 0 6px;
+    border-radius: 2em;
+    font-size: 12px;
+  }
+
+  &-task {
+    margin-top: 17px;
+    padding-top: 2rem;
+    line-height: 30px;
+    &:first-child {
+      border-top: 2px solid #d1d5da;
+    }
+  }
+}
